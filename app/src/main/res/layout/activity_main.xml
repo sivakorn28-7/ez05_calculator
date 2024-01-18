@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Tans"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:gravity="bottom|right"
+        android:text="0"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="471dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="163dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btclear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="C"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Btdel"
+                android:layout_width="wrap_content"
+                android:layout_height="117dp"
+                android:layout_weight="1"
+                android:text="Del"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Btmod"
+                android:layout_width="wrap_content"
+                android:layout_height="117dp"
+                android:layout_weight="1"
+                android:text="%"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Btdivide"
+                android:layout_width="wrap_content"
+                android:layout_height="117dp"
+                android:layout_weight="1"
+                android:text="/"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Bt7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="7"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Bt8"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="8"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Bt9"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="9"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Btmulti"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="x"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="124dp"
+                android:layout_weight="1"
+                android:text="5"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Bt6"
+                android:layout_width="wrap_content"
+                android:layout_height="124dp"
+                android:layout_weight="1"
+                android:text="6"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Btminus"
+                android:layout_width="wrap_content"
+                android:layout_height="124dp"
+                android:layout_weight="1"
+                android:text="-"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:layout_weight="1"
+                android:text="2"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:layout_weight="1"
+                android:text="3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Btplus"
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:layout_weight="1"
+                android:text="+"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="812dp">
+
+        <Button
+            android:id="@+id/Bt0"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Btdot"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="."
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Btequal"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="="
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>
